@@ -1,6 +1,6 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# can you provide a comprehensive guide for "net use" command wit example commands for daily adminsitrative usage
+
+# A comprehensive guide for "net use" command wit example commands for daily adminsitrative usage
 
 Here is a comprehensive guide for the Windows **net use** command, with example commands well-suited for daily administrative usage. The **net use** command is used to connect to, disconnect from, and manage network shared resources such as drives and printers.
 

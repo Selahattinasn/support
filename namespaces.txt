@@ -1,0 +1,51 @@
+ *Kubernetes supports multiple virtual clusters backed by the same physical cluster. These virtual clusters are called `namespaces`.*
+
+```bash
+kubectl get namespace
+NAME              STATUS   AGE
+default           Active   118m
+kube-node-lease   Active   118m
+kube-public       Active   118m
+kube-system       Active   118m
+```
+
+
+- Create a new YAML file called `my-namespace.yaml` with the following content.
+
+```yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mynamespace
+``````bash
+kubectl apply -f ./my-namespace.yaml
+```
+
+
+- Alternatively, you can create namespace using below command:
+
+```bash
+kubectl create namespace <namespace-name>
+```
+
+
+```bash
+kubectl create deployment mynginx --image=nginx
+kubectl create deployment myapache --image=httpd -n=mynamespace
+```
+
+```bash
+kubectl get deployment
+```
+
+- List the deployments in `mynamespace`.
+
+```bash
+kubectl get deployment -n mynamespace
+```
+
+- Delete the namespace.
+
+```bash
+kubectl delete namespaces mynamespace
+```

@@ -1,8 +1,8 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# Can you write me a comprehensive guide to learn INSY MRX Rouetr ant to learn how to manage its fucntionalities. VPN,; Firewall, Interfaces, administrtaion, package managements.
 
-Here is a comprehensive guide to help you learn and manage the INSYS MRX router functionalities, including VPN, firewall, interfaces, administration, and package management. This guide combines official references, practical tips, and configuration insights for effective system administration of the INSYS MRX router.
+# A comprehensive guide to learn INSY MRX Rouetr ant to learn how to manage its fucntionalities. VPN,; Firewall, Interfaces, administrtaion, package managements.
+
+This is a comprehensive guide to help you learn and manage the INSYS MRX router functionalities, including VPN, firewall, interfaces, administration, and package management. This guide combines official references, practical tips, and configuration insights for effective system administration of the INSYS MRX router.
 
 ***
 
